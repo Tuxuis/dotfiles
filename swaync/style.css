@@ -17,12 +17,12 @@
 }
 
 .notification{
-    background: rgba(209, 233, 255, 0.8);
+    background: rgba(46, 32, 11, 0.8);
 }
 
 .control-center .notification-row .notification-background .notification {
     margin-top: 0.150rem;
-    background: rgba(209, 233, 255, 0.8);
+    background: rgba(46, 32, 11, 0.8);
 
 }
 .floating-notifications .notification{

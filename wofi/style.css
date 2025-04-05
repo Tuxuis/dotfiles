@@ -1,9 +1,5 @@
 @import url('/home/tux/.cache/wal/colors-waybar.css');
 
-@define-color mauve  @color9;
-@define-color red  @color9;
-@define-color lavender  @color7;
-@define-color text  @color7;
 @keyframes fadeIn {
     0% {
     }
@@ -51,14 +47,13 @@
     border: none;
     outline: none;
     transition: all .3s ease;
-    color: @text;
-    box-shadow: 0px 0px 5px rgba(0,0,0, .5);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 14px rgba(202, 120, 66, 0.4);
     border-radius: 23px;
-    background-color: alpha(@background,.4);
 }
 #input image {
     border: none;
-    color: @red;
+    color: rgb(255, 255, 255);
     padding-right:11px;
 }
 #input * {
@@ -74,35 +69,33 @@
 #text {
     margin: 5px;
     border: none;
-    color: @text;
+    color: rgb(255, 255, 255);
     outline: none;
 }
 #text {
     margin: 5px;
     border: none;
-    color: @text;
+    color: rgb(255, 255, 255);
     outline: none;
 }
 #entry {
     border: none;
     margin: 5px;
     padding: 10px;
-    color: @mauve;
 }
 #entry arrow {
     border: none;
-    color: @lavender;
+    color: rgb(189, 189, 189)
 
 }
 #entry:selected {
-    box-shadow: 0px 0px 4px rgba(147, 229, 161, 0.8);
     border: none;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(145, 107, 91, 0.623);
+    background-color: rgba(0, 0, 0, 0.26);
 }
 #entry:selected #text {
     color: rgb(255, 255, 255);
-}
-#entry:drop(active) {
-    background-color: @lavender !important;
 }

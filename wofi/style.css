@@ -1,5 +1,3 @@
-@import url('/home/tux/.cache/wal/colors-waybar.css');
-
 @keyframes fadeIn {
     0% {
     }
@@ -19,10 +17,7 @@
 
 #window {
     padding: 0px;
-    border-radius: 15px;
-    border: solid;
-    border-color: rgba(123, 137, 154, 0.6);
-    border-width: 1px;
+    border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 #inner-box {
@@ -48,7 +43,7 @@
     outline: none;
     transition: all .3s ease;
     color: rgb(255, 255, 255);
-    box-shadow: 0 0 14px rgba(202, 120, 66, 0.4);
+    box-shadow: 0 0 12.5px rgba(106, 120, 126, 0.4);
     border-radius: 23px;
 }
 #input image {
@@ -93,7 +88,7 @@
     border-radius: 15px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgba(145, 107, 91, 0.623);
+    border-color: rgba(103, 111, 116, 0.623);
     background-color: rgba(0, 0, 0, 0.26);
 }
 #entry:selected #text {
